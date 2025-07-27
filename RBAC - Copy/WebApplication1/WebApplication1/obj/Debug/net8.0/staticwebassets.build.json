@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RBoeBWwlfgxPAAfq6e3jpqVVEq5BEQMHxNq22LV3h5Y=",
+  "Source": "RBAC.Api",
+  "BasePath": "_content/RBAC.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

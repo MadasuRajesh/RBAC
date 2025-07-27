@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\my projects\\RBAC\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CECECE-3AF6-474E-B286-D552306E7302}|WebApplication1\\RBAC.Api.csproj|d:\\my projects\\rbac\\webapplication1\\webapplication1\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8CECECE-3AF6-474E-B286-D552306E7302}|WebApplication1\\RBAC.Api.csproj|solutionrelative:webapplication1\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CECECE-3AF6-474E-B286-D552306E7302}|WebApplication1\\RBAC.Api.csproj|d:\\my projects\\rbac\\webapplication1\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8CECECE-3AF6-474E-B286-D552306E7302}|WebApplication1\\RBAC.Api.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CECECE-3AF6-474E-B286-D552306E7302}|WebApplication1\\RBAC.Api.csproj|d:\\my projects\\rbac\\webapplication1\\webapplication1\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8CECECE-3AF6-474E-B286-D552306E7302}|WebApplication1\\RBAC.Api.csproj|solutionrelative:webapplication1\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CECECE-3AF6-474E-B286-D552306E7302}|WebApplication1\\RBAC.Api.csproj|d:\\my projects\\rbac\\webapplication1\\webapplication1\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8CECECE-3AF6-474E-B286-D552306E7302}|WebApplication1\\RBAC.Api.csproj|solutionrelative:webapplication1\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\my projects\\RBAC\\WebApplication1\\WebApplication1\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\my projects\\RBAC\\WebApplication1\\WebApplication1\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T06:34:14.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\my projects\\RBAC\\WebApplication1\\WebApplication1\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\UserService.cs",
+              "ToolTip": "D:\\my projects\\RBAC\\WebApplication1\\WebApplication1\\Services\\UserService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\UserService.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAawEMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T06:29:32.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\my projects\\RBAC\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\my projects\\RBAC\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwCcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T06:23:31.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "D:\\my projects\\RBAC\\WebApplication1\\WebApplication1\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ContentController.cs",
+              "ToolTip": "D:\\my projects\\RBAC\\WebApplication1\\WebApplication1\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ContentController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAASwD8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T05:23:03.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

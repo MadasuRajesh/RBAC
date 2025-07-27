@@ -1,0 +1,66 @@
+.user-list-container {
+    max-height: calc(100vh - 200px);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+
+        .add-user-btn {
+            color: #f2f5f8;
+            background-color: #002b5c;
+            height: 36px;
+            margin-top: 22px;
+        }
+    }
+
+    h2 {
+        color: #002b5c;
+        margin-bottom: 1.5rem;
+    }
+
+    .table-container {
+        max-height: calc(100vh - 200px);
+        overflow: scroll;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.95rem;
+
+        th,
+        td {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #002b5c;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    }
+
+    .error {
+        color: red;
+        margin-bottom: 1rem;
+    }
+
+    .edit-btn {
+        color: #f2f5f8;
+        background-color: #002b5c;
+    }
+
+    .delete-btn {
+        color: #f2f5f8;
+        background-color: #9b1a1a;
+    }
+}

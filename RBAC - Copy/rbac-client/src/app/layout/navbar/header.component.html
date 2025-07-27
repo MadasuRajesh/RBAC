@@ -1,0 +1,12 @@
+<header class="header">
+  <div class="logo">{{userName ?? 'RBAC System'}}</div>
+  <nav *ngIf="userLoggedIn" class="nav-links">
+    <!-- Show Users tab only for Admin -->
+    <a *ngIf="isAdmin" routerLink="/users">Users</a>
+
+    <!-- Show Content tab for Admin, Editor, Viewer -->
+    <a *ngIf="isAdmin" routerLink="/content">Content</a>
+
+    <a routerLink="/auth/login" (click)="logout()" class="logout-btn">Logout</a>
+  </nav>
+</header>

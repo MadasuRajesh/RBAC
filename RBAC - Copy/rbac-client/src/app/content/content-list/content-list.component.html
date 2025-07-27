@@ -1,0 +1,26 @@
+<div class="content-list-container">
+    <h2>All Content</h2>
+  
+    <button class="add-btn" (click)="onAdd()">+ Add New Content</button>
+  
+    <div *ngIf="loading">Loading content...</div>
+    <div *ngIf="error" class="error">{{ error }}</div>
+  
+    <div class="cards-container" *ngIf="!loading && contents.length > 0">
+      <div class="content-card" *ngFor="let content of contents">
+        <h3>{{ content.title }}</h3>
+        <p class="body">{{ content.body }}</p>
+        <div class="meta">
+          <span><strong>Created:</strong> {{ content.createdAt | date:'short' }}</span><br>
+          <span><strong>By:</strong> {{ content.createdBy }}</span>
+        </div>
+        <div *ngIf="!isViewer" class="actions">
+          <button class="edit-btn" (click)="onEdit(content.id)">Edit</button>
+          <button class="delete-btn" (click)="onDelete(content.id)">Delete</button>
+        </div>
+      </div>
+    </div>
+  
+    <div *ngIf="!loading && contents.length === 0">No content found.</div>
+  </div>
+  

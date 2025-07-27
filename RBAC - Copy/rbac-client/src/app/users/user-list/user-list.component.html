@@ -1,0 +1,39 @@
+<div class="user-list-container">
+    <div class="top-nav">
+        <h2>All Users</h2>
+        <button (click)="navigateToUserForm()" class="add-user-btn">Add New User</button>
+    </div>
+
+    <div *ngIf="loading">Loading users...</div>
+    <div *ngIf="error" class="error">{{ error }}</div>
+
+    <div class="table-container">
+        <table *ngIf="!loading && users.length > 0">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Roles</th>
+                    <th>Phone</th>
+                    <th>
+                        Actions
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of users">
+                    <td>{{ user.userName }}</td>
+                    <td>{{ user.email }}</td>
+                    <td>{{ user.roles?.join(', ') || 'No roles' }}</td>
+                    <td>{{ user.phoneNumber || '-' }}</td>
+                    <td>
+                        <button class="edit-btn" (click)="navigateToUserForm(user.id)">Edit</button> |
+                        <button class="delete-btn" (click)="deleteUser(user.id)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="!loading && users.length === 0">No users found.</div>
+</div>
